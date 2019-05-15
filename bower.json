@@ -1,0 +1,20 @@
+{
+  "name": "Responsive_Portfolio_Website",
+  "authors": [
+    "codwerk <louis_widdy@live.fr>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "fortawesome-font-awesome": "^5.8.2"
+  }
+}

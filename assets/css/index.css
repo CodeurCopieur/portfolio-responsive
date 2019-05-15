@@ -1,0 +1,167 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;   
+}
+
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-image: url(../img/BG_01.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+}
+
+p {
+    color: #fff;
+    font-size: 1em;
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+li {
+    color: #fff;
+    font-size: 1em;
+}
+
+/* Header */
+
+/* UL */
+.logo-d {
+    list-style: none;
+}
+
+i.fab.fa-dribbble {
+    padding: 1em;
+    background: black;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.nav-log {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.logo-d a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* UL */
+
+.hdr .container-txt {
+    margin: 100px 0 200px 0;
+    text-align: center;
+}
+
+.hdr .container-txt p {
+    width: 45%;
+    margin: 30px auto 0 auto;
+}
+
+.hdr .container-txt p a {
+    color: #BF2B46;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* Header */
+
+
+/* Work */
+
+    .work {
+        text-align: center;
+        width: 100%;
+    }
+
+    .work a img {
+        margin: 1%;
+        width: 45%;
+    }
+
+/* Work */
+
+/* List */
+
+.container-list-txt {
+    text-align: center;
+    margin: 100px 0px 200px 0;
+    position: relative;
+}
+
+.container-list-txt h1 {
+    color: #BF2B46;
+}
+
+.container-list-txt h2.moi {
+    color: #003D66;
+    font-size: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    top: -20px;
+    z-index: -1;
+}
+
+.container-list-txt li {
+    margin-bottom: 20px;
+}
+
+/* List */
+
+
+/* Work 2 */
+.work2 {
+    width: 100%;
+    text-align: center;
+}
+
+.work2 a img {
+    width: 92%;
+    margin: 1%;
+}
+
+/* Work 2 */
+
+/* footer */
+
+.footer {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.footer p {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* footer */

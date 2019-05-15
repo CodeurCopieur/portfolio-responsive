@@ -1,0 +1,40 @@
+@media only screen and (max-width: 991px){
+    .wrapper .hdr .container-txt p {
+        width: 100%;
+    }
+
+    .wrapper .work a .work-img {
+        margin: 2%;
+        width: 96%;
+    }
+
+    .wrapper .work2 a  .work2-img{
+        margin: 2%;
+        width: 96%;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .hdr .container-txt {
+        width: 96%;
+        margin: 30px auto 100px auto;
+        text-align: left;
+    }
+
+    .wrapper .container-list-txt {
+        width: 96%;
+        margin: 70px auto 100px auto;
+        text-align: left;
+    }
+
+    .wrapper .container-list-txt .moi {
+        visibility: hidden;
+    }
+
+    .footer {
+        text-align: left;
+        width: 90%;
+        margin: 60px auto;
+    }
+}
